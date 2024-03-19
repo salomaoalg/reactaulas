@@ -3,6 +3,8 @@ import HelloWord from './components/HelloWord';
 import SayMayname from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './Evento';
+import Form from './components/Form';
 
 function App() {
 let name = 'Salomao';
@@ -25,6 +27,8 @@ function somar(a, b){
       profissao="Professora" xp="5"/>
       <HelloWord/>
       <List/>
+      <Evento numero={25}/>
+      <Form/>
     </div>
   );
 }
