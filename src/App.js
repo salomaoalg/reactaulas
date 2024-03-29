@@ -5,8 +5,11 @@ import Pessoa from './components/Pessoa';
 import List from './components/List';
 import Evento from './Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
+import Outralista from './components/OutraLista';
 
 function App() {
+const nomes = ["SALOMAO", "MARIA", "JOSE"]
 let name = 'Salomao';
 let newname = name.toUpperCase();
 let link = 'https://via.placeholder.com/150'
@@ -29,6 +32,9 @@ function somar(a, b){
       <List/>
       <Evento numero={25}/>
       <Form/>
+      <Condicional/>
+      <Outralista itens={nomes}/>
+      
     </div>
   );
 }
