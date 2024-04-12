@@ -73,3 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 15/03/2024 Funcionamento das Propos Default e propTypes e suas validações a nível de programação
 19/03/2024 Eventos OnClick e Onsubmit, e.preventDefault(), formulários form, e buttom
+12/04/2024 Eventos State Lift

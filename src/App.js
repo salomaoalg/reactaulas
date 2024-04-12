@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css'
 import HelloWord from './components/HelloWord';
 import SayMayname from './components/SayMyName';
@@ -7,12 +8,17 @@ import Evento from './Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
 import Outralista from './components/OutraLista';
+import SeuNome from './components/SeuNome';
+import SaudarCao from './components/SaudarCao';
+
 
 function App() {
+const [nome, setNome] = useState()
 const nomes = ["SALOMAO", "MARIA", "JOSE"]
 let name = 'Salomao';
 let newname = name.toUpperCase();
 let link = 'https://via.placeholder.com/150'
+
 function somar(a, b){
   return(a + b);
 }
@@ -25,6 +31,9 @@ function somar(a, b){
       <p>Soma, {somar(5, 5)}</p>
       <img src={link} alt="" />
 
+
+      <SeuNome setNome={setNome}/>
+      <SaudarCao nome={nome}/>
       <SayMayname name="Salomao isso é uma props"/>
       <Pessoa nome="Analisa" fullname="Analisa de Souza" foto="https://via.placeholder.com/100" 
       profissao="Professora" xp="5"/>
