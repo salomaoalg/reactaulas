@@ -3,3 +3,14 @@ body{
   background-color: blue;
   color: white;
 }
+
+p{
+  background-color: rgb(50, 121, 228);
+}
+li::marker{
+  color: white;
+}
+
+a:link, a:visited{
+  color: white;
+}
