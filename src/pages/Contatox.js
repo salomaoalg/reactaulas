@@ -1,7 +1,7 @@
 function Contatox(){
     return(
         <div>
-            <h1>Home</h1>
+            <h1>Contato</h1>
             <p>Conteúdo do página contato</p>
         </div>
     )

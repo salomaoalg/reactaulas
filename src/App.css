@@ -1,11 +1,12 @@
 body{
-  text-align: center;
   background-color: blue;
   color: white;
+  margin-left: 2em;
 }
 
 p{
   background-color: rgb(50, 121, 228);
+  padding: 1em;
 }
 li::marker{
   color: white;
